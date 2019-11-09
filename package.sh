@@ -33,11 +33,11 @@ DIG_OCEAN_DAV_PASS=$(getProperty "digital.ocean.dav.pass")
 if ([ $1 = "--init" ] && [ $2 = true ]); then
 	
 	echo "Process Started!"
-	sudo tar -zcvf client-installation.tar.gz client-installation/
+	sudo tar -zcvf client-installation.tar.gz ./client-installation
 	
 	echo "Copying files to cloud "$DIG_OCEAN_DAV_HOST:/webdav/documentation/data/installation/client
 	echo "Please wait..."
-	sudo sshpass -p $DIG_OCEAN_DAV_PASS scp client-installation.tar.gz $DIG_OCEAN_DAV_USER@$DIG_OCEAN_DAV_HOST:/webdav/documentation/data/installation/client/
+	sudo sshpass -p $DIG_OCEAN_DAV_PASS scp ./client-installation.tar.gz $DIG_OCEAN_DAV_USER@$DIG_OCEAN_DAV_HOST:/webdav/documentation/data/installation/client/
 	#scp ~/workspaces/inbraMarketingCode/venv/pub/Train4FAIR_logo1.png root@167.172.175.112:/webdav/documentation/data/media/static/files/img/
 	sudo rm client-installation.tar.gz
 	

@@ -1,49 +1,37 @@
-# Node-RED
+# Train4FAIR
 
-http://nodered.org
+http://train4fair.org
 
+<!--
 [![Build Status](https://travis-ci.org/node-red/node-red.svg?branch=master)](https://travis-ci.org/node-red/node-red)
 [![Coverage Status](https://coveralls.io/repos/node-red/node-red/badge.svg?branch=master)](https://coveralls.io/r/node-red/node-red?branch=master)
+-->
 
-Low-code programming for event-driven applications.
+Low-code programming for metadata-driven applications.
 
-![Node-RED: Low-code programming for event-driven applications](http://nodered.org/images/node-red-screenshot.png)
+![Node-RED: Low-code programming for event-driven applications](https://images.squarespace-cdn.com/content/v1/5dc4b3eb831740292d3ae5d1/1573416304319-N0B50E3EAIRG96G77P8D/ke17ZwdGBToddI8pDm48kG8Wl0bbxcYjqDLrbAVm36N7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0ppkrsg5CJ7GUgvPRZvfnCgl8-C98jZiPR0uWFXwuQZSaoZDe7E0phipRf8Nt7lk0g/image-asset.png)
 
 ## Quick Start
 
-Check out http://nodered.org/docs/getting-started/ for full instructions on getting
+Check out https://vimeo.com/372084929 for full instructions on getting
 started.
 
-1. `sudo npm install -g --unsafe-perm node-red`
-2. `node-red`
-3. Open <http://localhost:1880>
+1. `sudo apt install nodejs`
+2. `sudo apt install npm`
+3. `sudo git clone https://github.com/Train4FAIR/train4fair-client-dashboard.git`
+2. `cd train4fair-client-dashboard`
+2. `sudo sudo ./start.sh --refresh true --env cloud41`
+
 
 ## Getting Help
 
-More documentation can be found [here](http://nodered.org/docs).
+More documentation can be found [here](http://train4fair.org).
 
+<!--
 For further help, or general discussion, please use the [Node-RED Forum](https://discourse.nodered.org) or [slack team](https://nodered.org/slack).
+-->
 
-## Developers
 
-If you want to run the latest code from git, here's how to get started:
-
-1. Clone the code:
-
-        git clone https://github.com/node-red/node-red.git
-        cd node-red
-
-2. Install the node-red dependencies
-
-        npm install
-
-3. Build the code
-
-        npm run build
-
-4. Run
-
-        npm start
 
 ## Contributing
 
@@ -56,12 +44,14 @@ This project adheres to the [Contributor Covenant 1.4](http://contributor-covena
 
 ## Authors
 
-Node-RED is a project of the [OpenJS Foundation](https://openjsf.org).
+Train4FAIR is a project of the [Node-RED and OpenJS Foundation](https://openjsf.org).
+
 
 It was created by [IBM Emerging Technology](https://www.ibm.com/blogs/emerging-technology/).
 
 * Nick O'Leary [@knolleary](http://twitter.com/knolleary)
 * Dave Conway-Jones [@ceejay](http://twitter.com/ceejay)
+* João Bosco Jares [@jbjares](http://twitter.com/jbjares)
 
 
 

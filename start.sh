@@ -22,7 +22,7 @@ if ([ $1 = "--init" ] && [ $2 = true ] && [ $3 = "--env" ] && [ $4 = "dosrv02" ]
     sudo npm install
     sudo npm run build
     cd packages/node_modules/node-red
-    sudo node red.js -s ./client-installation/settings-all-digitalocean.js ./node-red/client-installation/gofairflows_.dosrv02.json
+    sudo node red.js -s ./client-installation/settings-all-digitalocean.js ./client-installation/gofairflows_.dosrv02.json
     echo "--init --env: dosrv02 loaded!"
 fi
 

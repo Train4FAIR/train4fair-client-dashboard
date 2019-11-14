@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f34e64-71a6-4072-af01-fc3af13c5a26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/node_modules/node-red/client-installation/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/node_modules/node-red/client-installation/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/node_modules/node-red/client-installation/removedois.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/node_modules/node-red/client-installation/settings-all-digitalocean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/node_modules/node-red/client-installation/settings-sd-digitalocean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/node_modules/node-red/client-installation/settings-cloud41.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="139">
@@ -52,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/refreshgithub.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="102">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -75,6 +71,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/node_modules/node-red/client-installation/.gofairflows_.cloud41.json.backup">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="392">
+                <caret line="76" selection-start-line="76" selection-end-line="76" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -166,12 +174,12 @@
         <option value="$PROJECT_DIR$/packages/node_modules/node-red/static/train4fair/javascript/testscript.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/client-installation/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/refreshgithub.sh" />
         <option value="$PROJECT_DIR$/start.sh" />
         <option value="$PROJECT_DIR$/packages/node_modules/node-red/client-installation/settings-cloud41.js" />
         <option value="$PROJECT_DIR$/packages/node_modules/node-red/client-installation/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/refreshgithub.sh" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -192,32 +200,6 @@
             <path>
               <item name="node-red" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-red" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-red" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-red" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-red" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-red" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-red" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-red" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="node-red" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-red" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-red" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="node-red" type="462c0819:PsiDirectoryNode" />
-              <item name="client-installation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,12 +255,12 @@
       <workItem from="1572922970848" duration="29628000" />
       <workItem from="1573199818127" duration="41192000" />
       <workItem from="1573412886840" duration="9183000" />
-      <workItem from="1573448779477" duration="12400000" />
+      <workItem from="1573448779477" duration="12896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92403000" />
+    <option name="totallyTimeSpent" value="92899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="0" />
@@ -644,16 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -684,13 +656,6 @@
     <entry file="file://$PROJECT_DIR$/packages/node_modules/node-red/client-installation/removedois.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/refreshgithub.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/node_modules/node-red/client-installation/settings-all-digitalocean.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4255" />
@@ -710,6 +675,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="279" column="14" lean-forward="true" selection-start-line="279" selection-start-column="14" selection-end-line="279" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refreshgithub.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="392">
+            <caret line="76" selection-start-line="76" selection-end-line="76" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
